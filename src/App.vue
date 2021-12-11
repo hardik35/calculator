@@ -51,7 +51,7 @@ export default {
         ],
         [
           this.generateKeysObj('Inv', 'greyButton', this.test.bind(this)),
-          this.generateKeysObj('Sin', 'greyButton', this.test.bind(this)),
+          this.generateKeysObj('sin', 'greyButton', this.test.bind(this)),
           this.generateKeysObj('ln', 'greyButton', this.test.bind(this)),
           this.generateKeysObj('7', 'lightBlueButtons', this.handleInput.bind(this, '7')),
           this.generateKeysObj('8', 'lightBlueButtons', this.handleInput.bind(this, '8')),
@@ -77,7 +77,7 @@ export default {
           this.generateKeysObj('-', 'greyButton', this.handleInput.bind(this, ' - ', true)),
         ],
         [
-          this.generateKeysObj('ANS', 'greyButton', this.test.bind(this)),
+          this.generateKeysObj('Ans', 'greyButton', this.test.bind(this)),
           this.generateKeysObj('EXP', 'greyButton', this.test.bind(this)),
           this.generateKeysObj('x^y', 'greyButton', this.test.bind(this)),
           this.generateKeysObj('0', 'lightBlueButtons', this.handleInput.bind(this, '0')),
