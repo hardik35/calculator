@@ -144,6 +144,8 @@ export default {
     width: 85px;
     margin: 4px;
     border-radius: 4px !important;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .greyButton {
